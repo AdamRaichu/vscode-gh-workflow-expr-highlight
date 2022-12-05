@@ -1,0 +1,16 @@
+{
+  "scopeName": "source.expr-highlight.injection",
+  "injectionSelector": "L:string.unquoted.block.yaml",
+  "patterns": [
+    {
+      "include": "#expr-syntax"
+    }
+  ],
+  "repository": {
+    "expr-syntax": {
+      "name": "constant.character.escape.expr-highlight",
+      "begin": "\\$\\{\\{",
+      "end": "}}|$"
+    }
+  }
+}
