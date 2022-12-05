@@ -12,6 +12,8 @@
   "repository": {
     "url": "https://github.com/AdamRaichu/vscode-webext-template"
   },
+  "main": "./extension.js",
+  "browser": "./extension.js",
   "version": "1.0.0",
   "activationEvents": [],
   "engines": {
