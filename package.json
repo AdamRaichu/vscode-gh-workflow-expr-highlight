@@ -1,20 +1,27 @@
 {
-  "name": "gh-workflow-expr-highlight",
+  "name": "workflow-expr-highlight",
   "displayName": "GitHub Workflow Expression ${{}} Highlighter",
   "description": "An extension which highlights ${{ }} pattern in YAML files",
+  "keywords": [
+    "workflow",
+    "actions",
+    "expression"
+  ],
   "publisher": "adamraichu",
   "icon": "logo.png",
   "authors": "AdamRaichu",
   "author": {
     "name": "AdamRaichu"
   },
-  "categories": [],
+  "categories": [
+    "Programming Languages"
+  ],
   "repository": {
-    "url": "https://github.com/AdamRaichu/vscode-webext-template"
+    "url": "https://github.com/AdamRaichu/vscode-gh-workflow-expr-highlight"
   },
   "main": "./extension.js",
   "browser": "./extension.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "activationEvents": [],
   "engines": {
     "vscode": "^1.63.0"
