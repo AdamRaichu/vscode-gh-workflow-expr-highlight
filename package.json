@@ -27,10 +27,7 @@
         "injectTo": [
           "string.unquoted.plain.out.yaml",
           "string.unquoted.block.yaml"
-        ],
-        "embeddedLanguages": {
-          "constant.character.escape.expr-highlight": "js"
-        }
+        ]
       }
     ]
   }
