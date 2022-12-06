@@ -1,6 +1,6 @@
 {
   "scopeName": "source.expr-highlight.injection",
-  "injectionSelector": "L:string.unquoted.block.yaml",
+  "injectionSelector": "L:source.yaml",
   "patterns": [
     {
       "include": "#expr-syntax"
