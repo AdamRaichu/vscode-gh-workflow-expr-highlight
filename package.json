@@ -32,8 +32,8 @@
         "scopeName": "source.expr-highlight.injection",
         "path": "./syntaxes/injection.tmLanguage.json",
         "injectTo": [
-          // "string.unquoted.plain.out.yaml",
-          // "string.unquoted.block.yaml"
+          "string.unquoted.plain.out.yaml",
+          "string.unquoted.block.yaml"
           "source.yaml"
         ]
       }
